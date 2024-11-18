@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS clients (
+    id UUID PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    phone VARCHAR(15) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    comment TEXT
+);
